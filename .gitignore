@@ -1,0 +1,36 @@
+# Entorno y secretos
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Vault Obsidian local (no versionar conocimiento personal)
+obsidian/
+
+# Salida LaTeX compilada
+latex/output/
+latex/*.aux
+latex/*.log
+latex/*.bbl
+latex/*.blg
+latex/*.out
+latex/*.synctex.gz
+
+# Fixtures grandes
+tests/fixtures/*.pdf
+tests/fixtures/*.tex
+
+# Editor
+.DS_Store
+.idea/
+.vscode/
